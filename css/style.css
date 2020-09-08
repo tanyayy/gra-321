@@ -4,10 +4,12 @@
 
 h1 {
     color: linen;
-    padding-left: 10%;
+}
+
+p {
+    color: linen;
 }
 
 ul {
     color: linen;
-    padding-left: 10%;
 }
