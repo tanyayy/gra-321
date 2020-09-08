@@ -1,12 +1,13 @@
 * {
-    background-color: lightsteelblue;
+    background-color: darkslategray;
 }
 
 h1 {
-    padding-left: 100px;
-    padding-top: 25px;
+    color: linen;
+    padding-left: 10%;
 }
 
 ul {
-    padding-left: 100px;
+    color: linen;
+    padding-left: 10%;
 }
