@@ -1,15 +1,38 @@
 * {
-    background-color: darkslategray;
+    
 }
 
+body {
+    background-color: #EAE7DC;
+}
 h1 {
-    color: linen;
+    color: #E85A4F;
+}
+
+button {
+    background-color: #E98074;
+    border: none;
+    color: #eae7dc;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 1em 2em 1em 2em;
 }
 
 p {
-    color: linen;
+    color: #E85A4F;
 }
 
+ul a:hover{
+   color: #E98074;
+}
+
+ul a:visited:hover {
+    color: #E98074;
+}
+
+ul a:visited {
+    color: #8E8D8A;
+}
 ul {
-    color: linen;
+    color: #D8C3A5;
 }
