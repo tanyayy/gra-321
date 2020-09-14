@@ -10,7 +10,7 @@ h1 {
 }
 
 .container {
-    background-image: url(chris-arthur-collins-qGkVJ7Tx36s-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1564067886520-e1ff2767eb1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80);
     background-size: cover;
     height: 700px;
     margin: 0 auto;
@@ -19,8 +19,8 @@ h1 {
 
 h2 {
     color: #EAE7DC;
-    font-size: 30px;
+    font-size: 45px;
     position: relative;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-weight: normal;
 }
