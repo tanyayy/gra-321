@@ -10,16 +10,16 @@ h1 {
 }
 
 .container {
-    background-image: url(https://images.unsplash.com/photo-1564067886520-e1ff2767eb1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80);
+    background-image: url(https://images.unsplash.com/photo-1564067886520-e1ff2767eb1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2853&q=80);
     background-size: cover;
-    height: 700px;
+    height: 600px;
     margin: 0 auto;
     width: 50%;
 }
 
 h2 {
     color: #EAE7DC;
-    font-size: 45px;
+    font-size: 36px;
     position: relative;
     text-align: left;
     font-weight: normal;
