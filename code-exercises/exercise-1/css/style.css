@@ -1,7 +1,3 @@
-* {
-    
-}
-
 body {
     background-color: #EAE7DC;
 }
@@ -14,33 +10,16 @@ button a {
     border: none;
     color: #EAE7DC;
     display: block;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin: none;
     padding: 1em 2em 1em 2em;
 }
 
-button a:hover {
+.btn-hover:hover {
     background-color: #E98074;
     color: #D8C3A5;
 }
 
 p {
     color: #E85A4F;
-}
-
-ul a:hover{
-   color: #E98074;
-}
-
-ul a:visited:hover {
-    color: #E98074;
-}
-
-ul a:visited {
-    color: #8E8D8A;
-}
-
-ul {
-    color: #D8C3A5;
 }

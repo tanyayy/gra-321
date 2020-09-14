@@ -1,21 +1,35 @@
-* {
-    background-color: darkslategray;
-}
+/*---Chivo Font Import---*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
+/*---Default Styling---*/
+body {
+    background-color: #EAE7DC;
+}
 h1 {
-    color: linen;
+    color: #E85A4F;
 }
 
-button {
-    background-color: chartreuse;
-    border: none;
-    color: linen;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    padding: 1em 2em 1em 2em;
+p {
+    font-family: 'Chivo', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight:700;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    top: 65px;
+    position: relative;
+    color: #E85A4F;
 }
 
-ul a:hover{
-   color: darksalmon;
+/*---Media Queries---*/
+@media screen and (max-width: 1000px) { 
+  body { 
+    background-color: #D8C3A5;
+}
 }
 
+@media screen and (max-width: 500px) { 
+  body { 
+    background-color: #8E8D8A;
+}
+}
