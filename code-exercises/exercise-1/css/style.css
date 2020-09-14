@@ -9,17 +9,24 @@ h1 {
     color: #E85A4F;
 }
 
-button {
-    background-color: #E98074;
+button a {
+    background-color: #8E8D8A;
     border: none;
-    color: #eae7dc;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    color: #EAE7DC;
+    display: block;
+    font-weight: bold;
+    margin: none;
     padding: 1em 2em 1em 2em;
 }
 
+
+button a:hover {
+    background-color: #E98074;
+    color: #D8C3A5;
+}
+
 p {
-    color: linen;
+    color: #E85A4F;
 }
 
 ul a:hover{
@@ -33,6 +40,7 @@ ul a:visited:hover {
 ul a:visited {
     color: #8E8D8A;
 }
+
 ul {
     color: #D8C3A5;
 }

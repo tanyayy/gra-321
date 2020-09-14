@@ -1,0 +1,21 @@
+* {
+    background-color: darkslategray;
+}
+
+h1 {
+    color: linen;
+}
+
+button {
+    background-color: chartreuse;
+    border: none;
+    color: linen;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 1em 2em 1em 2em;
+}
+
+ul a:hover{
+   color: darksalmon;
+}
+
