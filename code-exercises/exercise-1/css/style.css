@@ -14,11 +14,11 @@ button a {
     border: none;
     color: #EAE7DC;
     display: block;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin: none;
     padding: 1em 2em 1em 2em;
 }
-
 
 button a:hover {
     background-color: #E98074;

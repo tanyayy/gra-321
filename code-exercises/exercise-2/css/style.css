@@ -1,21 +1,26 @@
 * {
-    background-color: darkslategray;
+    
 }
 
+body {
+    background-color: #EAE7DC;
+}
 h1 {
-    color: linen;
+    color: #E85A4F;
 }
 
-button {
-    background-color: chartreuse;
-    border: none;
-    color: linen;
+.container {
+    background-image: url(chris-arthur-collins-qGkVJ7Tx36s-unsplash.jpg);
+    background-size: cover;
+    height: 700px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h2 {
+    color: #EAE7DC;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    padding: 1em 2em 1em 2em;
 }
-
-ul a:hover{
-   color: darksalmon;
-}
-
