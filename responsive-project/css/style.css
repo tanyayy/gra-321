@@ -2,14 +2,15 @@
 
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
-  @import url("https://use.typekit.net/kxt5lqz.css");
-
 
 body {
-  background-color: #FFF7EF;
+  background-color: #FFFFFF;
 }
 
+#wrapper {
+  width: 375px;
+  background-color: #FFF7EF;
+}
 .image1 {
   display: inline-flex;
   margin: 0;
@@ -53,9 +54,9 @@ h1 {
 
 p {
   color: #362217;
-  font-family: 'Avenir', 'Arial', sans-serif;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 22px;
   padding-left: 42px;
 }
@@ -66,24 +67,24 @@ p {
 
 h2 {
   color: #362217;
-  font-family: 'Avenir', 'Arial', sans-serif;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
   font-weight: 900;
   font-size: 40px;
   letter-spacing: 2px;
   padding-left: 42px;
   transform: translate(0,-40px);
-  margin-bottom: 0px;
+  margin-bottom: -20px;
 }
 
 h3 {
-  font-family: 'Avenir', 'Arial', sans-serif;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
   font-size: 20px;
   font-weight:500;
   padding-left: 42px;
   display: inline-block;
   color: #362217;
   letter-spacing: 1px;
-  margin-top:0;
+  margin-top:20px;
 }
 
 .hot-sizesS {
@@ -102,7 +103,7 @@ h3 {
   color: #362217;
   letter-spacing: 0px;
   padding-left: 28px;
-  font-family: 'Avenir', 'Arial', sans-serif;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
 }
 
 .hot-sizesM .hot-sizesL p {
@@ -176,7 +177,7 @@ hr {
   font-size: 16;
   color: #362217;
   padding-left: 40px;
-  font-family: 'Avenir', 'Arial', sans-serif;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
 }
 
 .ice-sizesM .ice-sizesL p {
@@ -242,7 +243,7 @@ hr {
   padding-bottom: 40px;
 }
 h4 {
-  font-family: 'Avenir', 'Arial', sans-serif;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 16px;
   padding-left: 42px;
@@ -295,16 +296,15 @@ h4 {
 
 #contact a{
   color: #362217;
-  text-decoration: underline;
 }
 
 #locations a{
   color: #362217;
-  text-decoration: underline;
 }
 
 #locations a:hover {
   color: #937F74;
+  text-decoration: underline;
 }
 
 #contact a:hover {
