@@ -2,5 +2,321 @@
 
 }
 
+  @import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+  @import url("https://use.typekit.net/kxt5lqz.css");
+
+
+body {
+  background-color: #FFF7EF;
+}
+
+.image1 {
+  display: inline-flex;
+  margin: 0;
+}
+
+nav {
+  display: inline-flex;
+  margin:0;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #81503F;
+  font-size: 18px;
+}
+
+nav a {
+  color: #FFF7EF;
+}
+
+nav a:hover {
+  color: #EBD0B3;
+  text-decoration: none;
+}
+
 h1 {
+  color: #362217;
+  font-family: 'Taviraj', 'Georgia', serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-top: 36px;
+  padding-bottom: 20px;
+  padding-left: 42px;
+}
+
+p {
+  color: #362217;
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 22px;
+  padding-left: 42px;
+}
+.aboutimg {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #362217;
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding-left: 42px;
+  transform: translate(0,-40px);
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight:500;
+  padding-left: 42px;
+  display: inline-block;
+  color: #362217;
+  letter-spacing: 1px;
+  margin-top:0;
+}
+
+.hot-sizesS {
+  display: inline-block;
+}
+.hot-sizesM {
+  display: inline-block;
+}
+
+.hot-sizesL {
+  display: inline-block;
+}
+
+.hot-sizesS p {
+  font-size: 16;
+  color: #362217;
+  letter-spacing: 0px;
+  padding-left: 28px;
+  font-family: 'Avenir', 'Arial', sans-serif;
+}
+
+.hot-sizesM .hot-sizesL p {
+  font-size: 16px;
+  color: #362217;
+  letter-spacing: 0px;
+}
+
+hr {
+  border-top: 1px solid #94817A;
+  width: 293px;
+  margin-left: 42px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.hot-items {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.hot-small {
+  display: inline-block;
+}
+
+.hot-small p {
+  text-align: center;
+  padding-left:12px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.hot-med {
+  display: inline-block;
+}
+
+.hot-med p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.hot-large {
+  display: inline-block;
+}
+
+.hot-large p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.ice-sizesS {
+  display: inline-block;
+}
+
+.ice-sizesM {
+  display: inline-block;
+}
+
+.ice-sizesL {
+  display: inline-block;
+}
+
+.ice-sizesS p {
+  font-size: 16;
+  color: #362217;
+  padding-left: 40px;
+  font-family: 'Avenir', 'Arial', sans-serif;
+}
+
+.ice-sizesM .ice-sizesL p {
+  font-size: 16px;
+  color: #362217;
+  text-align: center;
+}
+
+.ice-items {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.ice-small {
+  display: inline-block;
+}
+
+.ice-small p {
+  text-align: center;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.ice-med {
+  display: inline-block;
+}
+
+.ice-med p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.ice-large {
+  display: inline-block;
+}
+
+.ice-large p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.special-price {
+  display:inline-block;
+}
+
+.special-price p {
+  text-align: center;
+  padding-left: 86px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.special-items {
+  padding-bottom: 40px;
+}
+h4 {
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  padding-left: 42px;
+}
+
+.food-price {
+  display: inline-block
+}
+
+.food-price p{
+  text-align: center;
+  padding-left: 175px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.food-items {
+  padding-bottom: 90px;
+}
+.food-items p{
+  font-family: 'Taviraj', 'Georgia', serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  color: #937F74;
+}
+
+.lochr {
+  border-top: 1px solid #94817A;
+  width: 375px;
+}
+
+.lochr {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.maplinks{
+  display: inline-block;
+}
+
+.hours {
+  display: inline-block;
+}
+
+.hours p {
+  padding-left:20px;
+}
+
+#contact a{
+  color: #362217;
+  text-decoration: underline;
+}
+
+#locations a{
+  color: #362217;
+  text-decoration: underline;
+}
+
+#locations a:hover {
+  color: #937F74;
+}
+
+#contact a:hover {
+  color: #937F74;
+}
+
+#contact {
+  padding-bottom: 90px;
+}
+
+.btmlogo {
+  margin-left: 118px;
+  transform: translate(0,-35px);
+  margin-bottom: -40px;
 }
