@@ -14,24 +14,24 @@
 
   <body>
     <div id="wrapper">
-      <header>
-        <div class="parent">
-          <img class="image1" src="coffeecup.png" alt="coffee cup" width="235" height="210">
-          <img class="image2" src="charlieslogo_header.png" alt="toplogo" width="90">
+      <header class="header-nav">
+        <div class="image-banner">
+        <img src="charlieslogo_header.png" alt="toplogo">
         </div>
 
-        <nav>
+        <div class="nav-block">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
             <li><a href="#locations">Locations</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </nav>
+        </div>
       </header>
+    </div> <!--closes wrapper-->
 
       <section id="about">
-        <h1>ABOUT</h1>
+        <div class="about_h1"><h1>ABOUT</h1></div>
         <p>Charlie’s Café, one of Sun Devil Dining’s<br>
           local restaurant partners, brings the<br>
           taste of Europe to ASU! Proudly serving<br>
@@ -44,12 +44,12 @@
           BioDesign B Building and the College<br>
           of Design.<br>
         </p>
-        <img src="coffeepour.png" alt="coffee pouring" width="335px" class="aboutimg">
+        <img src="coffeepour.png" alt="coffee pouring" class="aboutimg">
       </section>
 
       <section id="menu">
         <h1>MENU</h1>
-        <img src="drinks.png" alt="three drinks" width="375">
+        <img src="drinks.png" alt="three drinks" class="drinkimg">
         <h2>DRINKS</h2>
         <h3>HOT DRINKS</h3>
         <div class="hot-sizesS"><p>S</p></div>
@@ -109,8 +109,8 @@
             5.05<br>
             4.25<br>
             4.25<br>
-            -- <br><p>
-        </div>
+            -<p>
+        </div><br>
         <h3>ICE DRINKS</h3>
         <div class="ice-sizesS"><p>S</p></div>
         <div class="ice-sizesM"><p>M</p></div>
@@ -150,8 +150,8 @@
           4.25<br>
           3.25<br>
           2.50<br>
-          </p>
-        </div>
+        </p>
+      </div>
         <div class="ice-large">
           <p>2.75<br>
           3.25<br>
@@ -162,8 +162,8 @@
           - <br>
           - <br>
           2.75<br>
-          </p>
-        </div>
+        </p>
+      </div><br>
         <h3>DRINK SPECIALS</h3>
         <div class="special-price"><p>3.75</p></div>
         <hr>
@@ -172,46 +172,46 @@
             Joyous Almond Latte<br>
             Banana Nut Mocha<br></strong><p>
         </div>
-        <img src="food.png" alt="panini" width="375">
+        <img src="food.png" alt="panini" width="375" class="foodimg">
         <h2>FOOD</h2>
         <h3>PANINIS</h3>
         <div class="food-price"><p>6.75</p></div>
         <hr>
         <div class="food-items">
           <h4>Italiano</h4>
-          <p>grilled baguette with prosciutto,<br>
-            mozzarella, sliced tomato, roasted red<br>
-            pepper, sun dried tomato pesto and<br>
+          <p>grilled baguette with prosciutto,
+            mozzarella, sliced tomato, roasted red
+            pepper, sun dried tomato pesto and
             a touch of balsamic vinegar</p><br>
           <h4>Seville</h4>
-          <p>grilled baguette with Spanish chorizo,<br>
-            mozzarella, sliced tomato, roasted red<br>
-            pepper, sun dried tomato pesto<br>
+          <p>grilled baguette with Spanish chorizo,
+            mozzarella, sliced tomato, roasted red
+            pepper, sun dried tomato pesto
             and a touch of balsamic vinegar</p><br>
           <h4>Milano</h4>
-          <p>grilled baguette with prosciutto, salami,<br>
-            ham, mozzarella, sliced tomato,<br>
-            pepperonicini, basil pesto and a touch<br>
+          <p>grilled baguette with prosciutto, salami,
+            ham, mozzarella, sliced tomato,
+            pepperonicini, basil pesto and a touch
             of balsamic vinegar</p><br>
           <h4>Caprese</h4>
-          <p>grilled baguette with mozzarella,<br>
-            sliced tomato, fresh basil, basil pesto<br>
+          <p>grilled baguette with mozzarella,
+            sliced tomato, fresh basil, basil pesto
             and a touch of balsamic vinegar</p><br>
           <h4>Vegetarian</h4>
-          <p>grilled herb focaccia with mozzarella,<br>
-            feta cheese, roasted red peppers,<br>
-            marinated artichoke, tomato, red onion,<br>
+          <p>grilled herb focaccia with mozzarella,
+            feta cheese, roasted red peppers,
+            marinated artichoke, tomato, red onion,
             and finished with basil pesto</p><br>
           <h4>Mediterranean</h4>
-          <p>grilled focaccia with spiced chicken<br>
-            breast, mozzarella, roasted red peppers,<br>
+          <p>grilled focaccia with spiced chicken
+            breast, mozzarella, roasted red peppers,
             sliced tomato and sun dried tomato pesto</p>
         </div>
         <hr class="lochr">
       </section>
       <img src="charlieslogo.png" alt="logo" width=133px class="btmlogo">
       <section id="locations">
-        <h1>LOCATIONS</h1>
+        <div class="location_h1"><h1>LOCATIONS</h1></div>
         <div class="maplinks">
           <p><strong>Design North, CDN</strong><br>
           <a href="https://goo.gl/maps/FeaAgDLMhCuM4pM49">810 S Forest Mall<br>
@@ -227,7 +227,7 @@
         </div>
 
         <div class="hours">
-          <p><strong>Hours</strong><br>
+          <p><span class="hours-title">Hours</span><br>
             M - F: 7AM - 3PM<br>
             S - Su: CLOSED<br><br><br>
             M - F: 7AM - 4PM<br>
@@ -238,7 +238,7 @@
       </section>
 
       <section id="contact">
-        <h1>CONTACT</h1>
+        <div class="contact_h1"><h1>CONTACT</h1></div>
         <p><strong>Phone</strong><br>
           Design North: <a href="tel:480-727-3463">480 727 3463</a><br>
           BioDesign: <a href="tel:430-965-3515">480 965 3515</a><br>
@@ -246,7 +246,7 @@
           <strong>Email</strong><br>
           <a href="mailto:charliescafesm@outlook.com">charliescafesm@outlook.com</a><br><br>
           <strong>Facebook</strong><br>
-          <a href="https://www.facebook.com/charliescafeasu/">Follow Us!</a><p>
+          <a href="https://www.facebook.com/charliescafeasu/">Follow Us!</a><br><p>
       </section>
     </div> <!--closes wrapper-->
   </body>

@@ -2,48 +2,79 @@
 
 }
 
-
-body {
-  background-color: #FFFFFF;
+.header-nav{ /*This is the parent container for "image-banner" and "nav-block"*/
+display:flex; /*This enables flexbox, allowing the two divs to sit side by side */
+height:210px; /*Specifying a height will ensure that we can make both the children elements: "image-banner" and "nav-block" display at the same height */
+align-items: center;
+background-color: #81503F; /*We have to make the entire background of this header brown, so that if any margins show up, you see the brown color */
+width:100%;
 }
 
-#wrapper {
-  width: 375px;
-  background-color: #FFF7EF;
-}
-.image1 {
-  display: inline-flex;
-  margin: 0;
+.image-banner {
+background-image: url("https://tanyayy.github.io/gra-321/responsive-project/coffeecup.png"); /*This is the coffee cup background image */
+background-position: center center;
+background-size: cover;
+height:100%; /*Here, we're telling the overall image-banner container to take up 100% of the height, aka 100% x 300, aka 300px. This way one desktop we can change the size of the header-nav container without having to adjust this */
+display:flex; /*This will allow us to control positioning of logo on background-image */
+align-items: flex-start; /*This makes sure that the logo and the background image are aligning themselves at the top of the container. Otherwise, the Charlies logo would likely display directly on top of the coffee cup, making it illegible*/
+justify-content: center; /*centers logo in the horizontal middle of the container (aka, the background image)*/
+width:62%; /*adjust this based on how wide the image banner should be, according to your design */
+position:relative; /*Makes sure we position this content relative to the parent container */
 }
 
-nav {
-  display: inline-flex;
-  margin:0;
+.image-banner img {
+height:35px;  /* We're specifying height so the charlies logo never gets too big... try taking this off and see what happens hehe */
+margin-left: 20px auto; /* we're giving a little breathing room to the top and bottom of the charlie's logo */
+margin-top: 20px;
+position:relative;
 }
-nav ul{
+
+
+.nav-block {
+  background-color: #81503F;
+  width:38%;
+  /*adjust this based on how wide the nav-block should be, according to your design */
+}
+
+
+
+.nav-block ul{
   list-style-type: none;
   text-align: center;
   line-height: 45px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #81503F;
   font-size: 18px;
+  display:flex;
+  flex-direction: column; /* with column, we can evenly space out the menu items from top to bottom instead of rowm which would be from left to right */
+  width:80%;
+  justify-content: space-between;
+
 }
 
-nav a {
-  color: #FFF7EF;
+.nav-block a {
+color:#FFF7EF;
+text-align: center;
+line-height: 45px;
+font-size: 18px;
+display:flex;
+flex-direction: column;
+width:90%;
+justify-content: space-between;
+align-items: center;
+
 }
 
-nav a:hover {
+
+
+.nav-block a:hover {
   color: #EBD0B3;
   text-decoration: none;
 }
 
+/*End Lindsey Demo CSS - the rest of the css below is existing from what's on github*/
+
 h1 {
   color: #362217;
-  font-family: 'Taviraj', 'Georgia', serif;
+  font-family: 'Taviraj', Georgia, serif;
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 1px;
@@ -61,8 +92,8 @@ p {
   padding-left: 42px;
 }
 .aboutimg {
-  padding-left: 40px;
-  padding-top: 20px;
+  width: 90%;
+  align-content: center;
 }
 
 h2 {
@@ -242,6 +273,7 @@ hr {
 .special-items {
   padding-bottom: 40px;
 }
+
 h4 {
   font-family: 'Nunito Sans', 'Arial', sans-serif;
   font-size: 18px;
@@ -249,6 +281,9 @@ h4 {
   padding-left: 42px;
 }
 
+.foodimg {
+  width: 100%;
+}
 .food-price {
   display: inline-block
 }
@@ -263,6 +298,7 @@ h4 {
 
 .food-items {
   padding-bottom: 90px;
+  padding-right: 42px;
 }
 .food-items p{
   font-family: 'Taviraj', 'Georgia', serif;
@@ -292,23 +328,29 @@ h4 {
 
 .hours p {
   padding-left:20px;
+  color: #937F74;
 }
-
+.hours-title {
+  font-weight: bold;
+  color:#362217;
+}
 #contact a{
-  color: #362217;
-}
-
-#locations a{
-  color: #362217;
-}
-
-#locations a:hover {
   color: #937F74;
   text-decoration: underline;
 }
 
-#contact a:hover {
+#locations a{
   color: #937F74;
+  text-decoration: underline;
+}
+
+#locations a:hover {
+  color: #EBD0B3;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #EBD0B3;
 }
 
 #contact {
@@ -319,4 +361,542 @@ h4 {
   margin-left: 118px;
   transform: translate(0,-35px);
   margin-bottom: -40px;
+}
+
+
+body {
+  background-color: #FFF7EF;
+}
+
+
+nav {
+  display: inline-block;
+  margin:0;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #81503F;
+  font-size: 18px;
+}
+
+nav a {
+  color: #FFF7EF;
+}
+
+nav a:hover {
+  color: #EBD0B3;
+  text-decoration: none;
+}
+
+h1 {
+  color: #362217;
+  font-family: 'Taviraj', 'Georgia', serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-top: 36px;
+  padding-bottom: 20px;
+  padding-left: 42px;
+}
+
+p {
+  color: #362217;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-left: 42px;
+}
+.aboutimg {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #362217;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding-left: 42px;
+  transform: translate(0,-40px);
+  margin-bottom: -20px;
+}
+
+h3 {
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight:500;
+  padding-left: 42px;
+  display: inline-block;
+  color: #362217;
+  letter-spacing: 1px;
+  margin-top:20px;
+}
+
+.drinkimg {
+  width: 100%;
+}
+.hot-sizesS {
+  display: inline-block;
+}
+.hot-sizesM {
+  display: inline-block;
+}
+
+.hot-sizesL {
+  display: inline-block;
+}
+
+.hot-sizesS p {
+  font-size: 16px;
+  color: #362217;
+  letter-spacing: 0px;
+  padding-left: 28px;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+}
+
+.hot-sizesM .hot-sizesL p {
+  font-size: 16px;
+  color: #362217;
+  letter-spacing: 0px;
+}
+
+hr {
+  border-top: 1px solid #94817A;
+  width:80%;
+
+}
+
+.hot-items {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.hot-small {
+  display: inline-block;
+}
+
+.hot-small p {
+  text-align: center;
+  padding-left:12px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.hot-med {
+  display: inline-block;
+}
+
+.hot-med p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.hot-large {
+  display: inline-block;
+}
+
+.hot-large p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.ice-sizesS {
+  display: inline-block;
+}
+
+.ice-sizesM {
+  display: inline-block;
+}
+
+.ice-sizesL {
+  display: inline-block;
+}
+
+.ice-sizesS p {
+  font-size: 16;
+  color: #362217;
+  padding-left: 40px;
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+}
+
+.ice-sizesM .ice-sizesL p {
+  font-size: 16px;
+  color: #362217;
+  text-align: center;
+}
+
+.ice-items {
+  display: inline-block;
+  margin-right: 0;
+}
+
+.ice-small {
+  display: inline-block;
+}
+
+.ice-small p {
+  text-align: center;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.ice-med {
+  display: inline-block;
+}
+
+.ice-med p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.ice-large {
+  display: inline-block;
+}
+
+.ice-large p {
+  text-align: center;
+  padding-left:23px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.special-price {
+  display:inline-block;
+}
+
+.special-price p {
+  text-align: center;
+  padding-left: 86px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.special-items {
+  padding-bottom: 40px;
+}
+h4 {
+  font-family: 'Nunito Sans', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  padding-left: 42px;
+}
+
+.food-price {
+  display: inline-block
+}
+
+.food-price p{
+  text-align: center;
+  padding-left: 175px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #937F74;
+}
+
+.food-items {
+  padding-bottom: 90px;
+  padding-right: 42px;
+}
+.food-items p{
+  font-family: 'Taviraj', 'Georgia', serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  color: #937F74;
+}
+
+.lochr {
+  border-top: 1px solid #94817A;
+  width: 100%;
+}
+
+.maplinks{
+  display: inline-block;
+}
+
+.hours {
+  display: inline-block;
+}
+
+.hours p {
+  padding-left:20px;
+  color: #937F74;
+}
+.hours-title {
+  font-weight: bold;
+  color:#362217;
+}
+#contact a{
+  color: #937F74;
+  text-decoration: underline;
+}
+
+#locations a{
+  color: #937F74;
+  text-decoration: underline;
+}
+
+#locations a:hover {
+  color: #EBD0B3;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #EBD0B3;
+}
+
+#contact {
+  padding-bottom: 90px;
+}
+
+.btmlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 500px) {
+
+.nav-block a {
+  color:#FFF7EF;
+  text-align: center;
+  line-height: 110px;
+  font-size: 35px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  }
+
+  .header-nav{
+  height:540px; /*Specifying a height will ensure that we can make both the children elements: "image-banner" and "nav-block" display at the same height */
+  align-items: center;
+  background-color: #81503F; /*We have to make the entire background of this header brown, so that if any margins show up, you see the brown color */
+  width:100%;
+  }
+
+  .image-banner img {
+  height:100px;  /* We're specifying height so the charlies logo never gets too big... try taking this off and see what happens hehe */
+  margin-left: 20px auto; /* we're giving a little breathing room to the top and bottom of the charlie's logo */
+  margin-top: 50px;
+  }
+
+  .btmlogo {
+    width: 18%;
+  }
+
+  h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    padding-left: 198px;
+  }
+
+  p {
+    padding-left: 198px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .aboutimg {
+    float: right;
+    width: 400px;
+  }
+
+  h2 {
+    font-size: 100px;
+    letter-spacing: 6px;
+    padding-left: 198px;
+    transform: translate(0,-75px);
+    margin-bottom: -20px;
+  }
+
+  h3 {
+    font-size: 37px;
+    padding-left: 198px;
+    padding-top: 60px;
+    display: inline-block;
+    color: #362217;
+    letter-spacing: 3px;
+    margin-top:20px;
+    font-weight: bolder;
+  }
+
+  hr {
+    width: 72%;
+    margin:auto;
+    border-top: 2px solid #94817A;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .hot-items p{
+    font-size: 33px;
+    line-height: 52px;
+  }
+
+  .hot-sizesS p {
+    font-size: 32px;
+    color: #362217;
+    padding-left: 380px;
+    margin: 0;
+  }
+
+  .hot-sizesM p {
+    font-size: 32px;
+    color: #362217;
+    padding-left: 155px;
+    margin: 0;
+  }
+
+  .hot-sizesL p {
+    font-size: 32px;
+    padding-left: 155px;
+    margin: 0;
+  }
+
+  .hot-small p {
+    text-align: center;
+    padding-left:333px;
+    font-size: 31px;
+    line-height: 52px;
+  }
+
+  .hot-med p {
+    text-align: center;
+    padding-left:115px;
+    font-size: 31px;
+    line-height: 52px;
+  }
+
+  .hot-large p {
+    text-align: center;
+    padding-left:115px;
+    font-size: 31px;
+    line-height: 52px;
+  }
+
+  .ice-items p{
+    font-size: 33px;
+    line-height: 52px;
+  }
+
+  .ice-sizesS p {
+    font-size: 32px;
+    color: #362217;
+    padding-left: 400px;
+    margin: 0;
+  }
+
+  .ice-sizesM p {
+    font-size: 32px;
+    color: #362217;
+    padding-left: 155px;
+    margin: 0;
+  }
+
+  .ice-sizesL p {
+    font-size: 32px;
+    padding-left: 155px;
+    margin: 0;
+  }
+
+  .ice-small p {
+    text-align: center;
+    padding-left:367px;
+    font-size: 31px;
+    line-height: 52px;
+  }
+
+  .ice-med p {
+    text-align: center;
+    padding-left:115px;
+    font-size: 31px;
+    line-height: 52px;
+  }
+
+  .ice-large p {
+    text-align: center;
+    padding-left:115px;
+    font-size: 31px;
+    line-height: 52px;
+  }
+
+  .special-price p {
+    padding-left: 632px;
+    font-size: 31px;
+    line-height: 22px;
+  }
+
+  .food-price p {
+    padding-left: 800px;
+    font-size: 31px;
+    line-height: 22px;
+  }
+  .special-items p {
+    font-size: 32px;
+    line-height: 52px;
+  }
+
+  h4 {
+    padding-left: 198px;
+    font-size: 32px;
+    font-weight:bolder;
+    color: #362217;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .food-items p{
+    font-size: 27px;
+    line-height: 37px;
+  }
+
+  .food-items {
+    width: 1150px;
+  }
+
+  #contact {
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: -200px;
+  }
+
+  .contact_h1 h1{
+    padding: 100;
+    font-size: 60px;
+  }
+
+  .location_h1 h1{
+    font-size: 60px;
+  }
+
+  #locations {
+    display: inline-block;
+  }
 }
