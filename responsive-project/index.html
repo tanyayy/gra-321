@@ -30,9 +30,10 @@
       </header>
     </div> <!--closes wrapper-->
 
-      <section id="about">
-        <div class="about_h1"><h1>ABOUT</h1></div>
-        <p>Charlie’s Café, one of Sun Devil Dining’s<br>
+      <section id="about" class="about-parent">
+        <div class="about-child-1">
+          <h1 class="about_h1">ABOUT</h1>
+          <p>Charlie’s Café, one of Sun Devil Dining’s<br>
           local restaurant partners, brings the<br>
           taste of Europe to ASU! Proudly serving<br>
           Lavazza Italian espresso and featuring<br>
@@ -44,7 +45,11 @@
           BioDesign B Building and the College<br>
           of Design.<br>
         </p>
+      </div>
+
+      <div class="about-child-2">
         <img src="coffeepour.png" alt="coffee pouring" class="aboutimg">
+      </div>
       </section>
 
       <section id="menu">
@@ -210,8 +215,16 @@
         <hr class="lochr">
       </section>
       <img src="charlieslogo.png" alt="logo" width=133px class="btmlogo">
-      <section id="locations">
-        <div class="location_h1"><h1>LOCATIONS</h1></div>
+
+      <!--start overall contact info -->
+      <section class="contact-container">
+
+<!--start location box-->
+        <div id="locations" class="location-box">
+
+        <div class="location_h1"><h1>LOCATIONS</h1>
+        </div>
+
         <div class="maplinks">
           <p><strong>Design North, CDN</strong><br>
           <a href="https://goo.gl/maps/FeaAgDLMhCuM4pM49">810 S Forest Mall<br>
@@ -235,19 +248,30 @@
             M - F: 7AM - 3PM<br>
             S - Su: CLOSED</p>
         </div>
-      </section>
+        </div>
 
-      <section id="contact">
-        <div class="contact_h1"><h1>CONTACT</h1></div>
+
+<!--end location box-->
+
+<!-- start contact box -->
+
+      <div id="contact" class="contact-box">
+
+          <div class="contact_h1"><h1>CONTACT</h1></div>
         <p><strong>Phone</strong><br>
           Design North: <a href="tel:480-727-3463">480 727 3463</a><br>
           BioDesign: <a href="tel:430-965-3515">480 965 3515</a><br>
           Hayden Library: <a href="tel:480-727-1477">480 727 0377</a><br><br>
           <strong>Email</strong><br>
           <a href="mailto:charliescafesm@outlook.com">charliescafesm@outlook.com</a><br><br>
-          <strong>Facebook</strong><br>
-          <a href="https://www.facebook.com/charliescafeasu/">Follow Us!</a><br><p>
-      </section>
-    </div> <!--closes wrapper-->
+          <strong>Socials and Reviews</strong><br>
+          <a href="https://www.facebook.com/charliescafeasu/"><strong>Facebook</strong> - Follow us!<br>
+          <a href="https://www.yelp.com/biz/charlies-cafe-tempe"><strong>Yelp</strong> - Give us a review!<br></p>
+
+
+      </div>
+      <!-- end contact box -->
+
+    </section> <!--closes contact-info group-->
   </body>
 </html>

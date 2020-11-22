@@ -23,10 +23,10 @@ position:relative; /*Makes sure we position this content relative to the parent 
 }
 
 .image-banner img {
-height:35px;  /* We're specifying height so the charlies logo never gets too big... try taking this off and see what happens hehe */
+height:30px;  /* We're specifying height so the charlies logo never gets too big... try taking this off and see what happens hehe */
 margin-left: 20px auto; /* we're giving a little breathing room to the top and bottom of the charlie's logo */
 margin-top: 20px;
-position:relative;
+position: relative;
 }
 
 
@@ -724,11 +724,6 @@ h4 {
     line-height: 40px;
   }
 
-  .aboutimg {
-    float: right;
-    width: 400px;
-  }
-
   h2 {
     font-size: 100px;
     letter-spacing: 6px;
@@ -880,23 +875,24 @@ h4 {
   .food-items {
     width: 1150px;
   }
+.contact-container {
+  display: flex;
+}
 
-  #contact {
-    display: inline-block;
-    margin-top: 10px;
-    padding-left: -200px;
-  }
+.about-child-1 p{
+  font-size: 25px;
+  line-height: 40px;
+  padding-bottom: 0;
+}
 
-  .contact_h1 h1{
-    padding: 100;
-    font-size: 60px;
-  }
+.about-parent {
+display:flex;
+align-items: flex-end;
+align-content:flex-end;
+}
 
-  .location_h1 h1{
-    font-size: 60px;
-  }
-
-  #locations {
-    display: inline-block;
-  }
+.about-child-2 {
+  width: 500px;
+  margin-left: 200px;
+  margin-bottom: 25px;
 }
