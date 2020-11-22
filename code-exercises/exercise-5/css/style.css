@@ -3,9 +3,11 @@
 }
 
 body {
-    background-color: White;
-    padding-left: 50px;
+    background-color: #EAE7DC;
+    padding-left: 5em;
+    padding-top: 2.5em;
 }
+
 h1 {
     color: Black;
     font-size: 44px;

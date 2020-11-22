@@ -4,6 +4,8 @@
 
 body {
     background-color: #EAE7DC;
+    padding-left: 5em;
+    padding-top: 2.5em;
 }
 h1 {
     color: #E85A4F;
@@ -13,4 +15,5 @@ img {
     width: 500px;
     height: 600px;
     padding-left: 2em;
+    padding-bottom: 2em;
 }
