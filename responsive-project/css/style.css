@@ -233,6 +233,22 @@ h2 {
   padding-top: 15px;
 }
 
+.hr-1 hr {
+  border-top: 2px solid #DBC9C2;
+}
+
+.hr-2 hr {
+  border-top: 2px solid #DBC9C2;
+}
+
+.hr-3 hr {
+  border-top: 2px solid #DBC9C2;
+}
+
+.hr-4 hr {
+  border-top: 2px solid #DBC9C2;
+}
+
 .ice-sizesS p {
   line-height: 25px;
   text-align: center;
@@ -306,7 +322,7 @@ h2 {
 
 
 hr {
-  border-top: 1.5px solid #C9B4AD;
+  border-top: 2px solid #DBC9C2;
 }
 
 .special-grid {
@@ -638,7 +654,23 @@ h4 {
   }
 
   hr {
-    border-top: 1.5px solid #C9B4AD;
+    border-top: 2px solid #DBC9C2;
+  }
+
+  .hr-1 hr {
+    border-top: 2px solid #DBC9C2;
+  }
+
+  .hr-2 hr {
+    border-top: 2px solid #DBC9C2;
+  }
+
+  .hr-3 hr {
+    border-top: 2px solid #DBC9C2;
+  }
+
+  .hr-4 hr {
+    border-top: 2px solid #DBC9C2;
   }
 
   .food-grid {
